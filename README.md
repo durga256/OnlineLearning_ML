@@ -10,11 +10,11 @@ This project analyses a streaming dataset of insects. The Machine Learning algor
   <li>Hoeffding Adaptive Trees(HAT)</li>
   <li>Adaptive Random Forest(ARF)</li>
   <li>Leverage bagging</li>
-  <li>
 </ul>
 The dataset is seperated based on the kind of drifts the dataset showcases. The above algorithms are applied to the datasets with 3 different drift patterns(Incremental, Abrupt and Gradual)
 The accuracies of the above algorithms on Incremental dataset is shown below
 <img src="https://drive.google.com/file/d/1Z0hduh-r-OxRqtg7EKJ5mGNPuPePKHCb/view?usp=share_link" alt="PerformanceGraphIncrementalDataset">
+![alt text](https://drive.google.com/file/d/1Z0hduh-r-OxRqtg7EKJ5mGNPuPePKHCb/view?usp=share_link)
 As expected the No-change classifier and Majority Class Classifier being very basic ones deliver poor performance. The ARF delivers the best performance on this dataset
 Similarly, The accuracies of the above algorithms on Gradual dataset is shown below
 <img src="https://drive.google.com/file/d/1f5TKAYWq4D-0tI9pGEsTQv1napDA0eML/view?usp=share_link" alt="PerformanceGraphGradualDataset">
