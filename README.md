@@ -1,4 +1,4 @@
-# U_ML_OnlineLearning
+# OnlineLearning_ML
 This analysis is from data presented in the research paper: <a href="https://drive.google.com/file/d/1NusaE6mBEhDd4vosOzGJsJKc2nNoaJ7Y/view?usp=sharing">Challenges in benchmarking stream learning algorithms with real-world data</a>
 
 This project analyses a streaming dataset of insects. The Machine Learning algorithm then decides if it is a pest or not. Classification algorithms applied include:
