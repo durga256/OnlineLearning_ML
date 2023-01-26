@@ -16,7 +16,7 @@ The accuracies of the above algorithms on Incremental dataset is shown below
 <img src="https://drive.google.com/file/d/1Z0hduh-r-OxRqtg7EKJ5mGNPuPePKHCb/view?usp=sharing" alt="PerformanceGraphIncrementalDataset" width="350">
 As expected the No-change classifier and Majority Class Classifier being very basic ones deliver poor performance. The ARF delivers the best performance on this dataset
 Similarly, The accuracies of the above algorithms on Gradual dataset is shown below
-<img src="https://drive.google.com/file/d/1f5TKAYWq4D-0tI9pGEsTQv1napDA0eML/view?usp=share_link" alt="PerformanceGraphGradualDataset">
+<img src="https://drive.google.com/file/d/1f5TKAYWq4D-0tI9pGEsTQv1napDA0eML/view?usp=share_link" style="border: none"/>
 A similar trend is followed except the No-Change and Majority classifiers peak for a period of time. This could be due to the fact the data remains constant for a certain period of time resulting in no-change in the result and the majority of the resulting classes are same. However, over time we observe that Leverage Bagging performs the best predictions.
 Also, The accuracies of the above algorithms on abrupt dataset is shown below
 <img src="https://drive.google.com/file/d/1MDy5SZdW-ah0XXFIP2Xa0r3qpE5afp4i/view?usp=share_link" alt="PerformanceGraphAbruptDataset">
